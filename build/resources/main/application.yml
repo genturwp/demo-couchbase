@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: demo-webflux-couchbase
+  data:
+    couchbase:
+      bucket-name: exercise1
+      scope-name: exer
+      username: admin
+      password: rahasia123
+      connection-string: couchbase://couchbase.local.com
